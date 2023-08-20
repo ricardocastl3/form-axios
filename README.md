@@ -31,7 +31,7 @@ npm install
 ### → Run server application
 
 ```
-npx jsonserver server.json
+npx json-server server.json --watch
 ```
 
 ### → Run front-end application
