@@ -4,11 +4,11 @@
 
 #### → Without Data
 
-<img src="https://github.com/ricardocastl3/form-axios/blob/main/src/assets/full02.png" width="500">
+<img src="https://github.com/ricardocastl3/form-axios/blob/main/src/assets/full01.png" width="500">
 
 #### → With Data
 
-<img src="https://github.com/ricardocastl3/form-axios/blob/main/src/assets/full01.png" width="500">
+<img src="https://github.com/ricardocastl3/form-axios/blob/main/src/assets/full02.png" width="500">
 
 ### → Get Started
 
@@ -28,10 +28,29 @@ git clone https://github.com/ricardocastl3/form-axios
 npm install
 ```
 
-### → Run application
+### → Run server application
+
+```
+npx jsonserver server.json
+```
+
+### → Run front-end application
 
 ```
 npm run dev
+```
+
+### → Axios Configurations
+
+```
+src
+----lib
+-----axios.ts
+
+Here we create the instance with axios features.
+
+You need change the baseUrl in the file, puting your url.
+
 ```
 
 ### → Tools

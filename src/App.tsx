@@ -2,7 +2,7 @@ import { FormContainer, FormGroup, HomeContainer, ListContainer } from "./App";
 import { GlobalStyles } from "./styles/global";
 import * as zod from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { set, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { api } from "./lib/axios";
 import { useEffect, useState } from "react";
 
