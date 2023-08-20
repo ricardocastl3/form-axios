@@ -33,7 +33,7 @@ export function App() {
   });
 
   async function fetchEmployees() {
-    const response = await api.get("employee");
+    const response = await api.get("employees");
     setEmployee(response.data);
   }
 
@@ -43,7 +43,7 @@ export function App() {
 
   async function handleSubmitForm(data: tipoDeFuncionario) {
     const { celular, genero, nome } = data;
-    const response = await api.post("/employee", {
+    const response = await api.post("/employees", {
       nome: nome,
       genero: genero,
       celular: celular,
