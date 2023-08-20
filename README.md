@@ -22,7 +22,7 @@ The first step you'll need to get started is downloading the project.
 git clone https://github.com/ricardocastl3/form-axios
 ```
 
-### → Install Dependences
+### → Install Dependencies
 
 ```
 npm install
