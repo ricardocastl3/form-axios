@@ -32,13 +32,13 @@ export function App() {
     },
   });
 
-  async function fetchEployees() {
+  async function fetchEmployees() {
     const response = await api.get("employee");
     setEmployee(response.data);
   }
 
   useEffect(() => {
-    fetchEployees();
+    fetchEmployees();
   }, []);
 
   async function handleSubmitForm(data: tipoDeFuncionario) {
